@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+@media screen and (max-width: 399px) {
+
+    header {
+        background-color: #FAE392;
+        min-height: 3rem;
+        position: fixed;
+        top: 0;
+        width: 95%;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    nav .right {
+        width: 99%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    nav .left {
+        width: 99%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    nav ul li {
+        list-style-type: none;
+        width: 6rem;
+        height: 1.4rem;
+        background-color: #1A5D1A;
+        border-radius: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 5px 10px #644f04;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    main {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.7rem;
+    }
+    
+    section {
+        min-height: 250vh;
+    }
+    
+    section ul li {
+        list-style-type: none;
+    }
+    
+    .home {
+        width: 100%;
+        padding-top: 5.2rem;
+        background-color: #F1C93B;
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+    }
+    
+    .home .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .home h1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .home .container .text {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .home .container .text-ben {
+        font-family: 'Dancing Script', cursive;
+    }
+    
+    .home .container .text-last-child {
+        text-align: center;
+    }
+    
+    .home .container .image {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .home .container .image img {
+        width: 100%;
+        border: 2px dotted #1A5D1A;
+    }
+    
+    .about {
+        width: 100%;
+        padding-top: 5.2rem;
+        background-color: #FBD85D;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+    
+    }
+    
+    .experience {
+        padding-top: 5.2rem;
+        height: 350vh;
+        background-color: #F1C93B;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+        width: 100%;
+    }
+    
+    .experience .exp-subsection {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    
+    .experience .exp-subsection .text1 {
+        width: 75%;
+    }
+    
+    .experience .exp-subsection .text2 {
+        width: 75%;
+    }
+    
+    .certificates {
+        padding-top: 5.2rem;
+        height: 300vh;
+        width: 100%;
+        background-color: #FBD85D;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+    }
+    
+    .certs-subsection {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 3rem;
+    }
+    
+    .general-certs {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 75%;
+    }
+    
+    .it-certs {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .video {
+        padding-top: 5.2rem;
+        background-color: #F1C93B;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+        width: 100%;
+    }
+    
+    .video iframe {
+        height: 600px;
+        aspect-ratio: 1.8/3;
+    }
+    
+    .hobbies {
+        padding-top: 5.2rem;
+        height: 300vh;
+        background-color: #FBD85D;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+    }
+    
+    .hobbies .hobbies-subsection {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0.8rem;
+    }
+    
+    .hobbies .text {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hobbies .visual {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .hobbies .visual iframe {
+        height: 620px;
+        aspect-ratio: 1/2;
+    }
+    
+    .contact {
+        background-color: #F1C93B;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+        height: 60vh;
+        width: 100%;
+    }
+    
+    .contact .icons {
+        width: 70%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    footer {
+        background-color: #FAE392;
+        min-height: 3rem;
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+    }
+
+}
