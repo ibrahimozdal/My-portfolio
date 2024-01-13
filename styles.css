@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Salsa&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+
+header {
+    background-color: #EAD196;
+    min-height: 6rem;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+}
+
+nav .right {
+    width: 99%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .left {
+    width: 99%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style-type: none;
+    width: 7.5rem;
+    height: 3.5rem;
+    background-color: #7D0A0A;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 10px #644f04;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {}
+
+section {
+    height: 100vh;
+}
+
+section ul li {
+    list-style-type: none;
+}
+
+.home {
+    padding-top: 6rem;
+    background-color: #7D0A0A;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.home .container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.home h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .container .text {
+    width: 100vw;
+    font-size: 4.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.home .container .text-ben {
+    font-size: 6.5rem;
+    font-family: "Salsa", cursive;
+}
+
+.home .container .text-last-child {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.home .container .image {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.home .container .image img {
+    width: 100%;
+    border: 2px dotted #7D0A0A;
+}
+
+.about {
+    padding-top: 6rem;
+    background-color: #EAD196;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    font-size: 1.5rem;
+    color:#7D0A0A;
+}
+
+.experience {
+    padding-top: 6rem;
+    background-color: #7D0A0A;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.3rem;
+}
+
+.experience .exp-subsection {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.experience .exp-subsection .text1 {
+    width: 75%;
+}
+
+.experience .exp-subsection .text2 {
+    width: 25%;
+}
+
+.certificates {
+    padding-top: 6rem;
+    background-color: #EAD196;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    font-size: 1.3rem;
+    color:#7D0A0A;
+}
+
+.certs-subsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.general-certs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 35%;
+}
+
+.it-certs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.video {
+    padding-top: 6rem;
+    background-color: #7D0A0A;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    font-size: 1.3rem;
+}
+
+.video iframe {
+    height: 600px;
+    aspect-ratio: 1.8/3;
+}
+
+.hobbies {
+    padding-top: 6rem;
+    background-color: #EAD196;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 1.2rem;
+    color:#7D0A0A;
+}
+
+.hobbies .hobbies-subsection {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.hobbies .text {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hobbies .visual {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hobbies .visual iframe {
+    height: 780px;
+    aspect-ratio: 1/2;
+}
+
+.contact {
+    padding-top: 6rem;
+    background-color: #7D0A0A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    font-size: 1.5rem;
+}
+
+.contact .icons {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    background-color: #EAD196;
+    min-height: 3rem;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
