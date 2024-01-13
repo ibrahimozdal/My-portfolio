@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Salsa&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -9,12 +9,13 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Asap", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
 }
 
 header {
-    background-color: #FAE392;
-    min-height: 3rem;
+    background-color: #EAD196;
+    min-height: 6rem;
     position: fixed;
     top: 0;
     width: 100vw;
@@ -39,10 +40,10 @@ nav .left {
 
 nav ul li {
     list-style-type: none;
-    width: 8.2rem;
-    height: 2.3rem;
-    background-color: #1A5D1A;
-    border-radius: 7px;
+    width: 7.5rem;
+    height: 3.5rem;
+    background-color: #7D0A0A;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,8 +66,8 @@ section ul li {
 }
 
 .home {
-    padding-top: 4rem;
-    background-color: #F1C93B;
+    padding-top: 6rem;
+    background-color: #7D0A0A;
     padding-left: 4rem;
     padding-right: 4rem;
 }
@@ -95,7 +96,7 @@ section ul li {
 
 .home .container .text-ben {
     font-size: 6.5rem;
-    font-family: 'Dancing Script', cursive;
+    font-family: "Salsa", cursive;
 }
 
 .home .container .text-last-child {
@@ -112,12 +113,12 @@ section ul li {
 
 .home .container .image img {
     width: 100%;
-    border: 2px dotted #1A5D1A;
+    border: 2px dotted #7D0A0A;
 }
 
 .about {
-    padding-top: 4rem;
-    background-color: #FBD85D;
+    padding-top: 6rem;
+    background-color: #EAD196;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -125,12 +126,12 @@ section ul li {
     padding-left: 15rem;
     padding-right: 15rem;
     font-size: 1.5rem;
-
+    color:#7D0A0A;
 }
 
 .experience {
-    padding-top: 4rem;
-    background-color: #F1C93B;
+    padding-top: 6rem;
+    background-color: #7D0A0A;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -154,8 +155,8 @@ section ul li {
 }
 
 .certificates {
-    padding-top: 4rem;
-    background-color: #FBD85D;
+    padding-top: 6rem;
+    background-color: #EAD196;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -163,6 +164,7 @@ section ul li {
     padding-left: 9rem;
     padding-right: 9rem;
     font-size: 1.3rem;
+    color:#7D0A0A;
 }
 
 .certs-subsection {
@@ -188,8 +190,8 @@ section ul li {
 }
 
 .video {
-    padding-top: 4rem;
-    background-color: #F1C93B;
+    padding-top: 6rem;
+    background-color: #7D0A0A;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -205,8 +207,8 @@ section ul li {
 }
 
 .hobbies {
-    padding-top: 4rem;
-    background-color: #FBD85D;
+    padding-top: 6rem;
+    background-color: #EAD196;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -214,6 +216,7 @@ section ul li {
     padding-left: 4rem;
     padding-right: 4rem;
     font-size: 1.2rem;
+    color:#7D0A0A;
 }
 
 .hobbies .hobbies-subsection {
@@ -241,8 +244,8 @@ section ul li {
 }
 
 .contact {
-    padding-top: 4rem;
-    background-color: #F1C93B;
+    padding-top: 6rem;
+    background-color: #7D0A0A;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -259,7 +262,7 @@ section ul li {
 }
 
 footer {
-    background-color: #FAE392;
+    background-color: #EAD196;
     min-height: 3rem;
     position: fixed;
     bottom: 0;
